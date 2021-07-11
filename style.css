@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    
+}
+
+.calculator{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0px 5px 8px 0px gray;
+    transition: 0.3s;
+    box-sizing: border-box;
+    font-size: 0;/*  eta na dile button gulo by default font size set kora thake  */
+ }  
+
+ .calculator:hover{
+     box-shadow: 0px 15px 32px 0px gray ;
+ }
+#result{
+   width: 385px;
+   height: 100px;
+   font-size: 2rem ;
+   font-weight: bold;
+   text-align: right;
+   padding: 0 5px;
+   letter-spacing: 2px;
+
+} 
+.btn{
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+}
+.side-btn{
+    background-color: purple;
+
+}
+
+.btn:hover{
+    background-color: teal;
+}
